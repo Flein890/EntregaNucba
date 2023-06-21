@@ -1,0 +1,33 @@
+* {
+  text-decoration: none;
+  font-family: "Mukta", sans-serif;
+  font-family: "Secular One", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ddd;
+  height: 7vh;
+  border-bottom: 2px solid #333;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.no-points {
+  list-style: none;
+  display: flex;
+  padding-right: 30px;
+  gap: 20px;
+}
+a {
+  color: #888;
+  opacity: 0.7;
+}
+
+a:hover {
+  color: #000;
+  transition: all 0.1;
+  opacity: 1;
+}
