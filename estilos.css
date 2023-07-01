@@ -17,7 +17,8 @@
 header {
   display: flex;
   justify-content: space-between;
-  background-color: var(--navbar);
+  /* background-color: var(--navbar); */
+  background-color: #ababab;
   height: 7vh;
 }
 .nav {
@@ -33,15 +34,15 @@ header {
 }
 
 .logo {
-  padding-left: 5px;
+  padding: 15px;
 }
 a {
-  color: #777;
+  color: #333;
   opacity: 0.7;
 }
 
 a:hover {
-  color: #999;
+  color: #000;
   transition: all 0.3s;
   opacity: 1;
   -webkit-transition: all 0.3s;
@@ -57,7 +58,14 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: var(--navbar);
+  /* background: var(--navbar); */
+  background: rgb(88, 84, 191);
+  background: linear-gradient(
+    108deg,
+    rgba(88, 84, 191, 1) 0%,
+    rgba(18, 6, 99, 1) 100%,
+    rgba(24, 20, 154, 1) 100%
+  );
 }
 
 #hero {
@@ -67,7 +75,7 @@ main {
   justify-content: center;
   background: var(--primary);
   max-width: 1000px;
-  border: 1px solid #111;
+
   color: white;
   border-radius: 2em;
   -webkit-border-radius: 2em;
@@ -148,8 +156,6 @@ main {
   gap: 20px;
 }
 
-#info div h3 {
-}
 #info div p {
   color: var(--text-gray);
 }
