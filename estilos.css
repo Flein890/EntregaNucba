@@ -304,3 +304,26 @@ main {
 .contact-img {
   width: 30%;
 }
+
+@media (max-width: 576px) {
+  #hero {
+    width: 80%;
+  }
+  .contactanos {
+    width: 100%;
+  }
+  .contact-cards {
+    flex-direction: row-reverse;
+    gap: 20px;
+    font-size: 0.7em;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .izquierda-contact {
+    width: 100%;
+  }
+  .derecha-contact {
+    width: 100%;
+  }
+}

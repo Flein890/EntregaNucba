@@ -19,7 +19,6 @@
     width: 800px;
     align-items: center;
     justify-content: center;
-    display: flex;
   }
   .contactanos {
     width: 100%;
@@ -62,18 +61,13 @@
   #toggle-menu:checked ~ .no-points {
     display: flex;
   }
-
+  .contact-cards {
+    flex-direction: column;
+    gap: 20px;
+    font-size: 0.9em;
+    width: 100%;
+  }
   #contact {
     width: 70%;
-  }
-}
-
-@media (max-width: 576px) {
-  #hero {
-    width: 80%;
-  }
-
-  .derecha-contact {
-    display: none;
   }
 }
