@@ -25,7 +25,7 @@ header {
     rgba(18, 6, 99, 1) 100%,
     rgba(24, 20, 154, 1) 100%
   );
-  height: 7vh;
+  height: 80px;
   position: fixed;
   width: 100%;
 }
@@ -62,10 +62,28 @@ a:hover {
   -o-transition: all 0.3s;
 }
 
+/*================================MENU HAMBURGER*=========================*/
+
+#toggle-menu {
+  display: none;
+}
+
+.nav i {
+  font-size: 36px;
+  display: none;
+  color: var(--text-gray);
+}
+@media (max-width: 768px) {
+  .nav i {
+    display: block;
+    padding-right: 30px;
+  }
+}
+
 /*==================================MAIN==================================*/
 
 main {
-  max-width: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -236,6 +254,7 @@ main {
   -ms-border-radius: 1.5em;
   -o-border-radius: 1.5em;
   margin-top: 120px;
+  margin-bottom: 20px;
 }
 .contactanos {
   width: 70%;

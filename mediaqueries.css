@@ -1,0 +1,79 @@
+@media (max-width: 1200px) {
+  .hero-logo {
+    display: none;
+  }
+
+  #card-section {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #info div p {
+    font-size: 0.8em;
+  }
+  #info {
+    width: 80%;
+  }
+
+  #contact {
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .contactanos {
+    width: 100%;
+  }
+
+  .contact-cards {
+    width: 100%;
+    font-size: 0.8em;
+  }
+
+  .contact-img {
+    display: none;
+  }
+
+  .SUPERCONTENEDOR h3 {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  /*menu hamburguer*/
+  .nav ul {
+    height: calc(100vh - 80px);
+    background: linear-gradient(to left, var(--secondary), var(--primary));
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    display: none;
+  }
+
+  .no-points li a {
+    color: #fff;
+  }
+
+  #toggle-menu:checked ~ .no-points {
+    display: flex;
+  }
+
+  #contact {
+    width: 70%;
+  }
+}
+
+@media (max-width: 576px) {
+  #hero {
+    width: 80%;
+  }
+
+  .derecha-contact {
+    display: none;
+  }
+}
